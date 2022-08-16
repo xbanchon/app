@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="35dp"
+        android:paddingBottom="50dp"
+        android:paddingLeft="35dp"
+        android:paddingRight="35dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:text="Album 1"
+            android:textSize="24dp"/>
+
+        <RelativeLayout
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            tools:context=".HomeFragment">
+
+            <ImageView
+                android:id="@+id/viewPage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/helianthus_yellow_flower_pixabay"/>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:text="MOSTRANDO IMAGEN"
+            android:textSize="18dp"/>
+
+    </LinearLayout>
+
+</FrameLayout>
